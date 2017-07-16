@@ -1,0 +1,258 @@
+/*==========  Desktop First Method  ==========*/
+
+/* My settings for 1920*1080 */
+@media only screen and (min-width : 1920px) {
+  
+	.page-container .container {
+		width: 92%;    
+	}
+	
+	.block-top-menu {
+		display: block;
+	}
+
+	.menu-toggle {
+		display: none;
+	}
+	
+
+
+    
+}
+
+@media only screen and (max-width : 1920px) {
+  
+	.page-container .container {
+			width: 92%;    
+	}
+	
+	.block-top-menu {
+		display: block;
+	}
+	
+	.menu-toggle {
+		display: none;
+	}
+	
+
+
+
+}
+
+@media only screen and (min-width : 1400px) {
+	.page-container .container {
+			width: 92%;    
+	}
+	
+
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.page-container .main-content {
+		padding-left: 0;	
+	}
+}
+
+@media only screen and (max-width : 1300px) {
+
+	
+	
+
+	
+}
+
+@media only screen and (max-width : 1240px) {
+	
+}
+
+@media only screen and (max-width : 1200px) {
+    
+	.menu-right ul {
+		margin-left: 0;
+	}
+	
+	.page-container .links-sidebar {
+		display: none;   
+	}
+	
+	.menu-toggle {
+		display: block;
+	}
+	
+	.menu-content {
+		display: none;
+	}
+	
+	.page-container .main-content {
+		padding-left: 0 !important;	
+	}
+
+	
+	
+  
+
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+	.block-top-menu {
+		display: none;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	
+	.page-container .content {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    -webkit-min-height: 100%;
+    background: #e8e8e8;
+  }
+
+	.block-top-menu-sm {
+		display: block;
+	}
+
+	.block {
+		background: #324264;
+		margin: 10px auto;
+	}
+    
+    /*псевдоэлемент - появление только при опр расширении*/
+/*
+    .block:after {
+        content: "New element";
+        position: absolute;
+        background: #222;
+        border-radius: 5px;
+        padding: 10px;
+        color: #eee;
+    }
+*/
+
+	.menu-left li,
+	.menu-right li {
+		font-size: 12px;
+	}
+
+	.block-top-menu .menu-right {
+		text-align: left;
+		padding-left: 0;
+	}
+	
+	
+	
+  
+}
+
+@media only screen and (max-width : 840px) {
+	.menu-right {
+		display: none;
+	}
+
+	.menu-left {
+		width: 100%;
+	}
+
+	.menu-left li {
+		font-size: 13px;
+	}
+  
+  .page-container .content {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    -webkit-min-height: 100%;
+    background: #e8e8e8;
+  }
+       
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+    
+	.block-top-menu {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.active {
+		border-bottom: none;
+	}
+
+ 
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+	.block-top-menu {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.active {
+		border-bottom: none;
+	}
+
+    
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    
+    
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

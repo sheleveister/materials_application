@@ -1,0 +1,44 @@
+
+.nav-tabs {
+  margin-top: 30px;
+}
+
+.page-container .nav-tabs li.active a {
+  border-radius: 0;
+  background-color: #f9f9f9;
+  border-bottom: 3px solid #16aeff;
+}
+
+.page-container .nav-tabs li.active a:hover,
+.page-container .nav-tabs li.active a:focus {
+  border-radius: 0;
+  background-color: #f4f4f4;
+  border-bottom: 3px solid #16aeff;
+}
+
+.page-container .nav-tabs li a:hover {
+  border-radius: 0;
+  border-bottom: none;
+}
+
+.table {
+  border: 1px solid #ddd;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'RobotoBold', sans-serif;
+  color: #3e3e3e;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+/*
+old format - don't work in mozilla!
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/Roboto/Roboto-Regular.ttf");
+    src: url("../fonts/Roboto/Roboto-Regular.eot");
+    src: url("../fonts/Roboto/Roboto-Regular.woff");
+    src: url("../fonts/Roboto/Roboto-Regular.woff2");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/Roboto/Roboto-Medium.ttf");
+	src: url("../fonts/Roboto/Roboto-Medium.eot");
+	src: url("../fonts/Roboto/Roboto-Medium.woff");
+	src: url("../fonts/Roboto/Roboto-Medium.woff2");
+	font-style: normal;
+	font-weight: normal;
+}
+*/
+
+/* Mozilla also */
+@font-face {
+  font-family: RobotoRegular;
+  src: local("Roboto Regular"),
+       local("RobotoRegular"),
+       url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: local("Roboto Medium"),
+       local("RobotoMedium"),
+       url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: local("Roboto Bold"),
+       local("RobotoBold"),
+       url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
+/* FontAwesome include */
+@font-face {
+  font-family: FontAwesome;
+  src: local("Font Awesome"),
+       local("FontAwesome"),
+       url("../fonts/FontAwesome/FontAwesome.otf"),
+       url("../fonts/FontAwesome/fontawesome-webfont.eot"),
+       url("../fonts/FontAwesome/fontawesome-webfont.svg"),
+       url("../fonts/FontAwesome/fontawesome-webfont.ttf"),
+       url("../fonts/FontAwesome/fontawesome-webfont.woff"),
+       url("../fonts/FontAwesome/fontawesome-webfont.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+

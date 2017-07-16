@@ -1,0 +1,107 @@
+{{> ./header}}
+
+<div class="page-container">
+
+    <ul class="links-sidebar">
+        <li class="main-link-sidebar link-sidebar-top">
+            <a href="#" class="link-sidebar-data">17 июня 2017 г.</a>
+        </li>
+
+        <!-- user avatar and user name -->
+        <li class="main-link-sidebar person">
+            <a href="/" class="link-person-sidebar">
+                <img src="/img/eliza.jpg" alt="avatar" class="person-img">
+                <div class="person-name">
+                    <p> Элизабет Холмс </p>
+                    <p> web-разработчик </p>
+                </div>
+            </a>
+        </li>
+
+        <!-- sidebar menu -->
+        <ul class="sidebar-menu">
+
+            <!--<li class="main-link-sidebar">-->
+                <!--<a href="user" class="link-sidebar">-->
+                    <!--<i class="fa fa-home link-icon" aria-hidden="true"></i>-->
+                    <!--<span class="text-sidebar">Домашняя</span>-->
+                <!--</a>-->
+            <!--</li>-->
+
+            <li class="main-link-sidebar">
+                <a href="/nodejs" class="link-sidebar">
+                    <i class="fa fa-flask link-icon" aria-hidden="true"></i>
+                    <span class="text-sidebar"> Материалы по курсу </span>
+                </a>
+            </li>
+
+            <li class="main-link-sidebar">
+                <a href="/user-attendance" class="link-sidebar">
+                    <i class="fa fa-pie-chart link-icon" aria-hidden="true"></i>
+                    <span class="text-sidebar"> Посещаемость </span>
+                </a>
+            </li>
+
+        </ul>
+
+
+        <li class="main-link-sidebar">
+            <a href="#" class="profile">Профиль пользователя</a>
+        </li>
+
+    </ul>
+
+    <div class="main-content">
+
+        <!-- адаптивное меню -->
+        <div class="menu-toggle">
+            <a href="#" class="menu-trigger">Меню</a>
+            <ul class="menu-links">
+                <!--<li class="menu-link"><a href="user" class="link">Домашняя</a></li>-->
+                <li class="menu-link"><a href="/nodejs" class="link">Материалы по курсу</a></li>
+                <li class="menu-link"><a href="/user-attendance" class="link">Посещаемость</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-content">
+            <div class="container">
+                <div class="row">
+                    <div class="block-top-menu">
+                        <div class="menu-left col-md-7 col-sm-12">
+                            <span class="burger" title="Свернуть меню">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </span>
+                        </div>
+
+                        <div class="menu-right col-md-5 col-sm-12">
+                            <p class="out-paragraph">
+                                <a href="/" class="out">Выйти</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        {{#attendance}}
+                            {{> ./attendance}}
+                        {{/attendance}}
+
+                        {{#materials}}
+                            {{> ./materials}}
+                        {{/materials}}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{> ./footer}}

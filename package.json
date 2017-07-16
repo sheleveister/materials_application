@@ -1,0 +1,22 @@
+{
+  "name": "materials-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "connect": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.8.2",
+    "multer": "*",
+    "mustache": "*",
+    "mustache-express": "^1.2.4",
+    "mysql": "^2.13.0",
+    "serve-favicon": "~2.3.2"
+  }
+}

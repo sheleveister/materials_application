@@ -1,0 +1,246 @@
+.holder {
+    background: #e8e8e8;
+    min-height: 92vh;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 90%;
+}
+
+.btn-droplist {
+    background: #16aeff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font: 14px/18px, 'Raleway Bold', sans-serif;
+}
+
+.materials span {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'RalewayBold', sans-serif;
+    color: #3e3e3e;
+}
+
+.create-materials, .added-materials {
+    background: #fff;
+    padding: 20px 5px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.materials {
+    margin-top: 10px;
+}
+
+/* общая разметка end*/
+
+/* меню - sidebar слева */
+.active-menu {
+    background: #1a232f;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+}
+
+.no-gutter> [class*='col-'] {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.data {
+    background: #16aeff;
+    height: 50px;
+    text-align: center;
+}
+
+.data p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway Bold', sans-serif;
+    padding-top: 12px;
+}
+
+.navigation {
+    margin-top: 150px;
+}
+
+.navigation ul {
+    padding-left: 0px;
+}
+
+.naigation li a i {
+    color: #dddddd;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigation li {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navigation a {
+    color: #c9c9c9;
+    font-size: 16px;
+    font-family: 'Raleway Bold', sans-serif;
+    text-decoration: none;
+}
+
+.navigation li i {
+    color: #dddddd;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 5px;
+    width: 80px;
+}
+
+.navigation a:link, .person a:link {
+    text-decoration: none;
+}
+
+.navigation a:visited, .person a:visited {
+    text-decoration: none;
+    color: #eaeaea;
+}
+
+.navigation a:active, .person a:active {
+    color: #eaeaea;
+    background: #1a232f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navigation a:hover, .person a:hover {
+    color: #eaeaea;
+}
+
+
+.navigation li:hover, .navigation li:active {
+    background: #1a232f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;    
+}
+
+.person p {
+    color: #dddddd;
+    font-family: 'Raleway Bold', sans-serif; 
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 81%;
+    color: #c9c9c9;
+    height: 1px;
+    clear: both;
+}
+
+.profile {
+    font-size: 12px;
+    color: #c9c9c9;
+    padding-left: 40px;
+}
+
+.person {
+    margin-top: 50px;
+}
+
+.person img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.person-name {
+    padding-top: 14px;
+}
+
+.person-name p:first-child {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Raleway Bold', sans-serif;
+    margin-bottom: 5px;
+}
+
+.person-name p:last-child {
+    font-size: 12px;
+    color: #c9c9c9;
+}
+/* меню - sidebar слева end */
+
+/* content */
+.container-menu {
+    background: #f4f4f4;
+    height: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-menu a i {
+    color: #b2b2b2;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.settings i {
+    padding-left: 30px;
+}
+/* content end */
+
+/* стили материалов */
+body .container-materials {
+    margin: 0 auto;
+    width: 100vh;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.create-materials, .added-materials {
+    margin: 20px 0;
+}
+
+.img-materials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    background: #aaa;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50px;
+    font-size: 20px; color:#333;
+    line-height: 100px;
+    text-align: center;
+    background-color: #e6e6e6;
+    border: 1px solid #adadad;
+}
+
+.content-materials p {
+    margin: 5px 0;
+}
+
+.btn {
+    float: right;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+/* стили материалов */
+
+.add-group {
+    margin-bottom: 10px;
+    color: gray;
+}

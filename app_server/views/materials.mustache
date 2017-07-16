@@ -1,0 +1,77 @@
+<div class="holder">
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="dropdown">
+                <button id="dLabel" class="btn-droplist" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Выбрать курс
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="/java"> Java </a></li>
+                    <li><a href="/python"> Python </a></li>
+                    <li><a href="/nodejs"> NodeJS </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 materials">
+            <span> {{title}} </span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="create-materials page-data">
+                <form method="post" action={{action}} enctype="multipart/form-data">
+                    <div class="col-md-3 img-materials">
+                        <img src={{image}} alt="Img">
+                    </div>
+                    <div class="col-md-9 content-materials">
+                        <div class="row">
+                            <div id="form" class="col-md-12">
+                                <input class="form-control" type="text" name="name" placeholder="Название темы" maxlength="50" required>
+                            </div>
+                            <div class="col-md-12 add-group">{{material}}</div>
+                            <div class="col-md-3 add-group"> Материал: </div>
+                            <div class="col-md-9 add-group"> <input type="file" name="material"> </div>
+
+                            <div class="col-md-12 add-group">{{tasks}}</div>
+                            <div class="col-md-3 add-group"> Задачи: </div>
+                            <div class="col-md-9 add-group"> <input type="file" name="tasks"> </div>
+
+                            <!-- btn add -->
+                            <div class="col-md-12">
+                                <button id="addMaterials" class="btn btn-primary" name="submit-add" type="submit">Добавить</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="list-materials" id="list-materials">
+                {{#data}}
+                <div class="data-table">
+                    <div class="added-materials">
+                        <div class="col-md-3">
+                            <div class="circle"> {{id}}</div>
+                        </div>
+
+                        <div id="download" class="col-md-9 content-materials">
+                            <a class="btn btn-default btn-remove delete" href={{href}}{{id}}> X </a>
+                            <h4> {{name}} </h4>
+                            <p class="material"> {{material}} </p>
+                            <p class="tasks"> {{tasks}} </p>
+                            <input class="btn btn-default public-draft-btn" id={{id}} type="button" value="Черновик">
+                        </div>
+                    </div>
+                </div>
+                {{/data}}
+            </div>
+        </div>
+    </div>
+
+</div>

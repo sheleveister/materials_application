@@ -1,0 +1,27 @@
+#calendar .ui-button, #calendar .ui-state-hover {
+    color: #16aeff;
+}
+
+
+#calendar .fc-prev-button span, .fc-next-button span{
+    margin-bottom: 0;
+}
+
+body .container-calendar {
+    margin: 0 auto;
+    width: 100vh;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#calendar .fc-today {
+    background: #e9edef;
+}
+
+#calendar .fc-day{
+    transition: all 0.5s;
+}
+
+#calendar .fc-day:hover{
+    background: #e9edef;
+}
